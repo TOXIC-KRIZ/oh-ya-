@@ -23,7 +23,7 @@ const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/
 const { smsg, isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sleep } = require('./lib/myfunc')
 const Drips = require('drips-memes')
 const aes256 = require('aes256');
-let plaintext = config.SESSION_ID.replaceAll("chugbot~", "");
+let plaintext = global.SESSION_ID.replaceAll("chugbot~", "");
 let key = 'k!t';
 let decryptedPlainText = aes256.decrypt(key, plaintext);
   async function md(){
