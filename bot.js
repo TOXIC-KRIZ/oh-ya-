@@ -48,7 +48,7 @@ global.botname = 'ZIM BOT V4'
 global.ownernma = 'Drips' //owner name
 global.packname = 'Drips' //sticker package name
 global.author = 'By Drips Memes' //sticker author name
-global.sessionName = 'session' //session name
+global.SESSION_ID = 'chugbot~zM4RA1Vd1Ujrbh2LXqKqBqjjqWFgf2mQWxKcpQ==' //session name
 global.prefa = ['#','!','/',''] //prefix
 global.sp = '🔵' //sp
 global.max_upload = 100
