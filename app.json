@@ -16,8 +16,12 @@
       "HEROKU_API_KEY": {
         "description": "Heroku account api key, https://dashboard.heroku.com/account",
         "required": true
-      }
+      },
+    "SESSION_ID": {
+      "description": "Your Session ID",
+      "required": true
     },
+    
   "buildpacks": [
               {
                 
